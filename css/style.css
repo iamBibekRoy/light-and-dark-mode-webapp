@@ -18,13 +18,19 @@ body {
 
 /* dark mode */
 .dark-theme {
-	--bg-color: black;
+	--bg-color: rgb(37, 37, 37);
 	--nav-item-color: white;
-	--nav-item-active-color: red;
+	/* --nav-item-active-color: red;
 	--nav-item-hover-color: red;
-	--icon-color: red;
+	--icon-color: red; */
 	--heading-color: white;
 	--paragraph-color: white;
+}
+
+.bg-color,
+.offcanvas-header,
+.offcanvas-body {
+	background-color: var(--bg-color);
 }
 
 .nav-items {
@@ -72,6 +78,11 @@ body {
 }
 
 .bi-moon-stars-fill {
+	color: var(--icon-color);
+	font-size: 20px;
+}
+
+.bi-brightness-high-fill {
 	color: var(--icon-color);
 	font-size: 20px;
 }
@@ -153,3 +164,8 @@ body {
 		max-width: 100%;
 	}
 }
+
+/* #logo-img {
+	filter: brightness(100%);
+	filter: invert(0%);
+} */
