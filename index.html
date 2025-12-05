@@ -26,6 +26,105 @@
 		<!-- link bootstrap icon -->
 	</head>
 	<body>
+		<div class="container-fluid m-0 p-0">
+			<!-- navbar section starts -->
+			<nav class="navbar fixed-top navbar-expand-md py-3">
+				<div class="container-lg container-fluid">
+					<div class="d-flex">
+						<a href="#">
+							<img
+								src="./Assets/logo.png"
+								alt="logo-img"
+								height="45"
+								width="135" />
+						</a>
+						<button
+							class="bg-transparent border-0"
+							title="button">
+							<i class="bi bi-moon-stars-fill"></i>
+						</button>
+					</div>
+					<button
+						class="navbar-toggler shadow-none border-0"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="offcanvas offcanvas-end"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel">
+						<div class="offcanvas-header border-bottom">
+							<a href="#">
+								<img
+									src="./Assets/logo.png"
+									alt="logo-img"
+									height="40"
+									width="120" />
+							</a>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul
+								class="navbar-nav justify-content-end align-items-md-center flex-grow-1 pe-3 gap-3">
+								<li class="nav-item">
+									<a
+										class="nav-items nav-active fw-semibold"
+										aria-current="page"
+										href="#"
+										>Product</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-items fw-semibold"
+										aria-current="page"
+										href="#"
+										>Customers</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-items fw-semibold"
+										aria-current="page"
+										href="#"
+										>Pricing</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-items fw-semibold"
+										aria-current="page"
+										href="#"
+										>Resources</a
+									>
+								</li>
+								<li class="nav-item">
+									<button class="btn-1">Sign in</button>
+								</li>
+								<li class="nav-item">
+									<button
+										type="button"
+										class="btn-2">
+										Sign up
+									</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- navbar section ends -->
+		</div>
+
 		<!-- link js -->
 		<script src="./js/bootstrap.bundle.js"></script>
 		<script src="./js/dark-mode.js"></script>

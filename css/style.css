@@ -1,0 +1,58 @@
+body {
+	box-sizing: border-box;
+}
+
+/* light mode */
+:root {
+	--bg-color: white;
+	--nav-item-color: rgba(0, 0, 0, 0.7);
+	--nav-item-active-color: #8d0cfe;
+	--nav-item-hover-color: #8d0cfe;
+	--btn-bg-color: rgba(255, 255, 255, 0);
+	--btn-color: #8d0cfe;
+	--icon-color: #8d0cfe;
+}
+
+/* dark mode */
+.dark-theme {
+	--bg-color: black;
+	--nav-item-color: white;
+	--nav-item-active-color: red;
+	--nav-item-hover-color: red;
+	--icon-color: red;
+}
+
+.nav-items {
+	text-decoration: none;
+	color: var(--nav-item-color);
+}
+
+.nav-items:hover {
+	text-decoration: none;
+	color: var(--nav-item-hover-color);
+}
+
+.nav-active {
+	color: var(--nav-item-active-color);
+}
+
+.btn-1 {
+	color: var(--btn-color);
+	background-color: var(--btn-bg-color);
+	border: 2px solid var(--btn-color);
+	padding: 8px 18px;
+	border-radius: 5px;
+}
+
+.btn-2 {
+	color: white;
+	background-color: var(--btn-color);
+	border: 2px solid var(--btn-color);
+	padding: 8px 18px;
+	border-radius: 5px;
+}
+
+.bi-moon-stars-fill {
+	color: var(--icon-color);
+	font-size: 20px;
+}
